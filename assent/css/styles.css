@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+
+/* CSS Resets */
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+   /* border: 2px solid red;*/
+}
+html{
+    /* me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}

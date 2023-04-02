@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://kit.fontawesome.com/09da4e91ad.js" crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="" href="path-to-your-favicon"/>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="assent/css/styles.css">
+    <link rel="stylesheet" href="assent/css/section-header/header.css">
+    <link rel="stylesheet" href="assent/css/section-person/inicio.css">
+    <link rel="stylesheet" href="assent/css/section-sobreMi/sobreMi.css">
+    <link rel="stylesheet" href="assent/css/section-skill/skill.css">
+    <link rel="stylesheet" href="assent/css/section-curriculum/curriculum.css">
+    <link rel="stylesheet" href="assent/css/section-portafolio/portafolio.css">
+    <link rel="stylesheet" href="assent/css/section-contacto/contacto.css">
+    <link rel="stylesheet" href="assent/css/section-footer/footer.css">
+    <link rel="stylesheet" href="assent/css/responsive.css">
+    
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Titulo de la página -->
+    <title>Portafolio Faner Santander</title>
+    
+    
+</head>
+<body>
+     <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Faner Santander</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="assent/images/hero.png" alt="">
+            </div>
+            <h1>FANER SANTANDER</h1>
+            <h2>Tecnólogo Producción de Multimedia <br> Experto UI/UX</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Faner Santander.</span> Soy Tecnólogo en producción multimedia, Me apasiona.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 317 537 75 44
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Fanerstder@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            , Barranquilla - Atlántico 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Github</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="skill">
+                        <span>Sql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+               <!-- <div class="item izq">
+                        <img src="" alt="" width ="200px" height ="180px">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>-->
+                    <div class="item izq">
+                        <img src="assent/images/Front-end.png" alt="" width ="200px" height ="180px">
+                        <h4>Front-end</h4>
+                        <span class="casa">Alura Latam | Oracle Next Education</span>
+                        <span class="fecha">2022 </span>
+                        <p>Desarrolador web - Front-end </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <img src="assent/images/sena.jpg" alt="" width ="200px" height ="180px">
+                        <h4>Producción Multimedia</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Carrera Tecnólogica en producción multimedia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+              <!--  <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <img src="" alt="" width ="200px" height ="180px">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <img src="" alt="" width ="200px" height ="180px">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <img src="" alt="" width ="200px" height ="180px">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+   <!-- <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="" alt="">
+                    <div class="overlay">
+                        <h3></h3>
+                        <p></p>
+                        <button ><a href="">ver</a></button>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="assent/images/hero.png" alt="">
+                    <div class="overlay">
+                        <h3></h3></p>
+                        <button ><a href="">ver</a></button>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="" alt="">
+                    <div class="overlay">
+                        <h3></h3>
+                        <p></p>
+                        <button ><a href="">ver</a></button>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="" alt="">
+                    <div class="overlay">
+                        <h3></h3>
+                        <p></p>
+                        <button ><a href="">ver</a></button>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <img src="" alt="">
+                    <div class="overlay">
+                        <h3></h3>
+                        <p></p>
+                        <button ><a href="">ver</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <form class="form" id="form" action="https://formspree.io/f/mvonzgzj"
+  method="POST"
+>
+                    <div class="col">
+                        
+                    <input type="text" id="name" name="sender-name" placeholder="Ingrese su nombre" class="input-field" required/>
+                                  
+                    <input type="number" placeholder="Número telefónico" name="number" id="telefono" required>
+                  
+                    <input type="email" id="email" name="email" placeholder="Ingrese su email" class="input-field"
+              required>
+                    <!--<input type="text" placeholder="Tema" id="tema" required> -->
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit" value="enviar" class="enviar--form">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                </form>
+                <a href="mailto:fanerstder@gmail.com" id="correo">email</a>
+                
+                <!-- REDES SOCIALES  -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                                <a href="www.facebook.com/Faner_stder"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+            <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a>
+            <a href=""><i class="fa-brands fa-skype"></i>Skype</a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i>Linkedin</a>
+            <a href=""><i class="fa-solid fa-rss"></i></a>
+                            <a href="+57 3175377544">
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                317 53 77 544
+                            </a>
+                            <a>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: fanerstder@gmail.com
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="www.facebook.com/faner.santandervilladiego"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="www.linkedin.com/in/faner-santander-86332b208"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>src="form..js"</script>
+</body>
+
+</html>
