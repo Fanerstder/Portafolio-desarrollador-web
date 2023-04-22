@@ -86,6 +86,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.contacto .col .info img{
+    width:300px;
+    height:600px;
+}
 .contacto .col .info ul{
     list-style: none;
 }
