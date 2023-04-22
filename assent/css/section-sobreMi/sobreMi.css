@@ -30,6 +30,10 @@
 {
     width: 50%;
 }
+.sobremi .fila .col img{
+    width:300px;
+    height:300px;
+}
 .sobremi .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
