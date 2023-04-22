@@ -39,3 +39,18 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+
+/* Funcion del texto Banner */
+
+var typed = new Typed(".auto-type",{
+
+   strings :["Front-end","Backend","Full Stack"],
+
+   typeSpeed:50,
+
+   backSpeed:50,
+
+   lood:true,
+
+})
