@@ -23,4 +23,4 @@ también mostramos los proyectos que hemos realizado como un apartado de present
 - Notificaciones de alertas personalizadas 
 
 ---
-##[ir ala pagina](https://fanerstder.github.io/Portafolio-desarrolador-web/)
+##[ir ala pagina](https://fanerstder.github.io/Portafolio-desarrollador-web/)
